@@ -42,7 +42,14 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="relative h-screen bg-myyellow"></section>
+      <section className="relative h-screen bg-myyellow py-32 px-24">
+        <h1 className="text-6xl text-myblack text-center">FEATURED PRODUCTS</h1>
+        <div className="grid grid-cols-3 w-full h-full gap-24 py-12">
+          <div className="bg-myred"></div>
+          <div className="bg-myred"></div>
+          <div className="bg-myred"></div>
+        </div>
+      </section>
     </div>
   );
 }
