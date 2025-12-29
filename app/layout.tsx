@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Titillium_Web, BBH_Bartle } from "next/font/google";
 import "./globals.css";
+
+const titillium = Titillium_Web({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+  variable: "--font-titillium",
+});
+
+const bartle = BBH_Bartle({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-bartle",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,9 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${titillium.variable} ${bartle.variable} antialiased`}>
         {children}
       </body>
     </html>
