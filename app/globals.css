@@ -17,6 +17,19 @@
   --color-myred-700: var(--myred-700);
 
   --color-myblack: var(--myblack);
+
+  --color-mygray: var(--mygray);
+
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 :root {
@@ -34,6 +47,8 @@
   --myred-700: #5c2f24;
 
   --myblack: #000000;
+
+  --mygray: #1d1d1d;
 }
 
 @media (prefers-color-scheme: dark) {
