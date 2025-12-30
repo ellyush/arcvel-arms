@@ -1,7 +1,8 @@
 "use client";
 import Navbar from "../component/navbar";
 import Image from "next/image";
-import LogoTicker from "../component/landing/logoticker";
+import { useEffect } from "react";
+import Footer from "../component/footer";
 
 export default function LandingPage() {
   return (
@@ -18,14 +19,14 @@ export default function LandingPage() {
 
         <div className="absolute inset-0 bg-black/60"></div>
 
-        <div className="relative z-10 flex flex-col h-full items-center justify-center px-10 text-center">
+        <div className="relative z-10 flex flex-col h-full items-center justify-between py-52 text-center">
           <div className="text-mywhite">
-            <h1 className="text-5xl md:text-6xl font-bold">
+            <h1 className="text-5xl md:text-6xl text-myyellow">
               Precision Leads to Perfection
             </h1>
           </div>
           <div className="max-w-6xl">
-            <p className="mt-6 text-xl">
+            <p className="mt-6 mb-6 text-xl">
               At Arcvel Arms, every weapon we create is a testament to
               precision, expertise, and innovation. Our products are
               meticulously designed and engineered by seasoned professionals
@@ -33,7 +34,7 @@ export default function LandingPage() {
               conceptualization to production, we ensure every detail meets the
               highest standards of quality, performance, and reliability.
             </p>
-            <p className="mt-6 text-xl">
+            <p className="mb-6 text-xl">
               We take pride in crafting exclusive, high-performance weaponry
               tailored to meet the specific needs of our clients. Whether for
               defense, law enforcement, or specialized tactical operations, our
@@ -42,11 +43,41 @@ export default function LandingPage() {
               don’t just manufacture weapons—we engineer superiority.
             </p>
           </div>
+          <div className="grid grid-cols-3 gap-6 text-center text-2xl">
+            {/* Navigasi 1 */}
+            <a
+              href="#featured"
+              className="flex items-center justify-center border-2 rounded-sm w-120 h-12 hover:-translate-y-2 transition cursor-pointer text-inherit hover:text-inherit"
+            >
+              <h1 className="font-bartle">Our Products</h1>
+            </a>
+
+            {/* Navigasi 2 */}
+            <a
+              href="#getstarted"
+              className="flex items-center justify-center border-2 rounded-sm w-120 h-12 hover:-translate-y-2 transition cursor-pointer text-inherit hover:text-inherit"
+            >
+              <h1 className="font-bartle">Start With Us</h1>
+            </a>
+
+            {/* Navigasi 3 */}
+            <a
+              href="#whyus"
+              className="flex items-center justify-center border-2 rounded-sm w-120 h-12 hover:-translate-y-2 transition cursor-pointer text-inherit hover:text-inherit"
+            >
+              <h1 className="font-bartle">Why Us?</h1>
+            </a>
+          </div>
         </div>
       </section>
 
-      <section className="relative min-h-[calc(100vh-80px)] bg-mywhite pt-20 py-32 px-24 flex flex-col items-center">
-        <h1 className="text-6xl text-mygray text-center">FEATURED PRODUCTS</h1>
+      <section
+        id="featured"
+        className="relative min-h-[calc(100vh-80px)] bg-mywhite px-24 flex flex-col items-center justify-between py-32"
+      >
+        <h1 className="text-6xl text-myyellow text-center">
+          FEATURED PRODUCTS
+        </h1>
         <div className="grid grid-cols-2 w-full gap-24 py-12">
           <div className="relative group">
             <img src="/featuredgun.svg" alt="" className="w-full" />
@@ -84,15 +115,18 @@ export default function LandingPage() {
             window.location.href = "#";
           }}
           type="submit"
-          className="bg-myred text-mywhite px-12 py-4 rounded-sm bottom-12 hover:bg-myred-700 transition text-xl font-semibold mt-8 cursor-pointer"
+          className="bg-myred text-mywhite px-12 py-4 rounded-sm hover:bg-myred-700 transition text-xl font-semibold mt-8 cursor-pointer"
         >
           See All Products
         </button>
       </section>
 
-      <section className="relative min-h-[calc(100vh-80px)] bg-mywhite pt-20 px-24 flex flex-col items-center">
+      <section
+        id="getstarted"
+        className="relative min-h-[calc(100vh-80px)] bg-mywhite px-24 flex flex-col items-center justify-between py-32"
+      >
         <div>
-          <h1 className="text-6xl text-mygray">GET STARTED WITH US</h1>
+          <h1 className="text-6xl text-myyellow">GET STARTED WITH US</h1>
         </div>
         <div className="grid grid-cols-3 w-full h-full gap-12 py-12">
           <div className="w-full relative">
@@ -133,6 +167,58 @@ export default function LandingPage() {
           </p>
         </div>
       </section>
+
+      <section
+        id="whyus"
+        className="relative min-h-[calc(100vh-80px)] bg-mywhite px-12 lg:px-24 flex items-center flex-col justify-between gap-24 py-32"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-12 text-center md:text-left">
+          <div className="md:border-r border-mygray md:pr-12">
+            <h2 className="text-3xl mb-6 text-myyellow">
+              Engineered by Professionals
+            </h2>
+            <p className="text-mygray leading-relaxed">
+              Designed and developed by professionals with hands-on experience
+              in engineering, manufacturing, and defense-related environments,
+              ensuring that every product is built based on practical
+              operational requirements rather than theoretical concepts.
+            </p>
+          </div>
+
+          <div className="md:border-r border-mygray md:px-12">
+            <h2 className="text-3xl mb-6 text-myyellow">Global Distribution</h2>
+            <p className="text-mygray leading-relaxed">
+              Supported by a structured global logistics and distribution system
+              that enables consistent delivery, regional availability, and
+              long-term product support across multiple continents.
+            </p>
+          </div>
+
+          <div className="md:pl-12">
+            <h2 className="text-3xl mb-6 text-myyellow">Over 30 Countries</h2>
+            <p className="text-mygray leading-relaxed">
+              Actively distributed and utilized in over 30 international markets
+              through authorized partners, reflecting sustained adoption across
+              diverse operational, regulatory, and environmental conditions.
+            </p>
+          </div>
+        </div>
+        <div className="w-7/10 h-60 flex items-center justify-center gap-12">
+          <img src="/arcvel.svg" alt="" className="h-60" />
+          <p className="text-mygray text-justify text-xl h-60 items-center flex justify-center">
+            At Arcvel Arms, we are committed to delivering firearms that combine
+            cutting-edge technology, superior craftsmanship, and unmatched
+            reliability. Whether for defense, hunting, or professional
+            operations, our products are designed to give you the power,
+            precision, and confidence to excel in any mission. Explore our
+            lineup and experience the next level of firepower. When it comes to
+            performance and dependability, trust only the best. Arcvel Arms –
+            Precision Leads to Perfection.
+          </p>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 }
