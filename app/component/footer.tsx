@@ -31,7 +31,7 @@ const Footer = () => {
                 <img
                   src="/facebook.svg"
                   alt="Facebook"
-                  className="w-8 h-8 invert opacity-70 hover:opacity-100"
+                  className="w-8 h-8 opacity-70 hover:opacity-100"
                 />
               </Link>
               <Link
@@ -41,7 +41,7 @@ const Footer = () => {
                 <img
                   src="/youtube.svg"
                   alt="YouTube"
-                  className="w-8 h-8 invert opacity-70 hover:opacity-100"
+                  className="w-8 h-8 opacity-70 hover:opacity-100"
                 />
               </Link>
               <Link
@@ -51,7 +51,7 @@ const Footer = () => {
                 <img
                   src="/twiter.svg"
                   alt="Twitter"
-                  className="w-8 h-8 invert opacity-70 hover:opacity-100"
+                  className="w-8 h-8 opacity-70 hover:opacity-100"
                 />
               </Link>
             </div>

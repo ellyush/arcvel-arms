@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="bg-mywhite flex justify-between text-mygray items-center px-10 h-20 fixed top-0 z-50 w-full border-b border-mygray">
+    <nav className="bg-mywhite flex justify-between text-mygray items-center px-10 h-20 fixed top-0 z-50 w-full border-b-2 border-mygray">
       <div className="w-60 flex items-center justify-center gap-2">
         <Image
           alt="Arcvel Arms Logo"
