@@ -42,12 +42,12 @@ export default function LandingPage() {
 
         <div className="relative z-10 flex flex-col h-full items-center justify-center py-20 md:py-32 text-center">
           <div className="text-mywhite mt-16 md:mt-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl text-myyellow leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-myyellow leading-tight">
               Precision Leads to Perfection
             </h1>
           </div>
           <div className="max-w-6xl my-8 md:my-12">
-            <p className="mb-6 text-base md:text-xl text-white/90">
+            <p className="mb-6 text-base md:text-lg text-white/90">
               At Arcvel Arms, every weapon we create is a testament to
               precision, expertise, and innovation. Our products are
               meticulously designed and engineered by seasoned professionals
@@ -55,7 +55,7 @@ export default function LandingPage() {
               conceptualization to production, we ensure every detail meets the
               highest standards of quality, performance, and reliability.
             </p>
-            <p className="hidden md:block mb-6 text-xl text-white/90">
+            <p className="hidden md:block mb-6 text-lg text-white/90">
               We take pride in crafting exclusive, high-performance weaponry
               tailored to meet the specific needs of our clients. Whether for
               defense, law enforcement, or specialized tactical operations, our
@@ -67,21 +67,21 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-center text-lg md:text-2xl w-full max-w-4xl">
             <a
               href="#featured"
-              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full py-3 md:py-4 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
+              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full md:py-2 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
             >
               <h1 className="font-bartle">Top Products</h1>
             </a>
 
             <a
               href="#getstarted"
-              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full py-3 md:py-4 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
+              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full md:py-2 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
             >
               <h1 className="font-bartle">Start With Us</h1>
             </a>
 
             <a
               href="#whyus"
-              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full py-3 md:py-4 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
+              className="flex items-center justify-center border-2 border-myyellow/50 hover:border-myyellow rounded-sm w-full md:py-2 hover:-translate-y-2 transition cursor-pointer text-mywhite hover:text-myyellow bg-black/20 hover:bg-black/40 backdrop-blur-sm"
             >
               <h1 className="font-bartle">Why Us?</h1>
             </a>
@@ -93,10 +93,10 @@ export default function LandingPage() {
         id="featured"
         className="relative min-h-screen bg-mywhite px-6 md:px-12 lg:px-24 flex flex-col items-center justify-center py-20 md:py-32"
       >
-        <h1 className="text-4xl md:text-6xl text-myyellow text-center mb-8 md:mb-0">
+        <h1 className="text-4xl md:text-5xl text-myyellow text-center mb-8 md:mb-0">
           FEATURED PRODUCTS
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-12 md:gap-24 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-12 md:gap-24 py-8">
           <div className="relative group overflow-hidden rounded-lg shadow-lg md:shadow-none">
             <img
               src="/featuredgun.svg"
@@ -141,7 +141,7 @@ export default function LandingPage() {
             window.location.href = "#";
           }}
           type="submit"
-          className="bg-myred text-mywhite px-8 py-3 md:px-12 md:py-4 rounded-sm hover:bg-myred-700 transition text-lg md:text-xl font-semibold mt-4 md:mt-8 cursor-pointer w-full md:w-auto"
+          className="bg-myred text-mywhite px-8 py-3 md:px-12 md:py-4 rounded-sm hover:bg-myred-700 transition text-lg md:text-lg font-semibold mt-4 cursor-pointer w-full md:w-auto"
         >
           See All Products
         </button>
@@ -152,18 +152,18 @@ export default function LandingPage() {
         className="relative min-h-screen bg-mywhite px-6 md:px-12 lg:px-24 flex flex-col items-center justify-center py-20 md:py-32"
       >
         <div>
-          <h1 className="text-4xl md:text-6xl text-myyellow text-center font-bartle">
+          <h1 className="text-4xl md:text-5xl text-myyellow text-center font-bartle">
             GET STARTED WITH US
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-8 md:gap-12 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 w-full gap-8 md:gap-12 py-12">
           <div className="w-full relative h-64 md:h-auto group">
             <img
               src="/hunting.svg"
               alt=""
               className="w-full h-full object-cover rounded-sm"
             />
-            <div className="z-10 absolute inset-0 text-center text-2xl md:text-3xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
+            <div className="z-10 absolute inset-0 text-center text-xl lg:text-2xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
               <h2>Hunting</h2>
             </div>
           </div>
@@ -173,7 +173,7 @@ export default function LandingPage() {
               alt=""
               className="w-full h-full object-cover rounded-sm"
             />
-            <div className="z-10 absolute inset-0 text-center text-2xl md:text-3xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
+            <div className="z-10 absolute inset-0 text-center text-xl lg:text-2xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
               <h2>Professional</h2>
             </div>
           </div>
@@ -183,13 +183,13 @@ export default function LandingPage() {
               alt=""
               className="w-full h-full object-cover rounded-sm"
             />
-            <div className="z-10 absolute inset-0 text-center text-2xl md:text-3xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
+            <div className="z-10 absolute inset-0 text-center text-xl lg:text-2xl flex items-end justify-center pb-6 bg-linear-to-t from-black/80 to-transparent text-mywhite">
               <h2>Home Defense</h2>
             </div>
           </div>
         </div>
         <div>
-          <p className="text-base md:text-xl text-mygray max-w-6xl text-center leading-relaxed">
+          <p className="text-base md:text-lg text-mygray max-w-6xl text-center leading-relaxed">
             Whether you're securing your home, hunting in the wild, or operating
             in high-stakes professional environments, Arcvel Arms provides the
             perfect balance of precision, reliability, and adaptability. Our
@@ -208,9 +208,9 @@ export default function LandingPage() {
         id="whyus"
         className="relative min-h-screen bg-mywhite px-6 md:px-12 lg:px-24 flex items-center flex-col justify-between gap-12 md:gap-24 py-20 md:py-32"
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-12 text-center md:text-left">
-          <div className="reveal opacity-0 translate-y-12 transition-all duration-700 ease-out md:border-r border-mygray md:pr-12">
-            <h2 className="text-2xl md:text-3xl mb-4 md:mb-6 text-myyellow font-bartle">
+        <div className="grid grid-cols-1 lg:grid-cols-3 w-full gap-12 text-center lg:text-left">
+          <div className="reveal opacity-0 translate-y-12 transition-all duration-700 ease-out lg:border-r border-mygray lg:pr-12">
+            <h2 className="text-xl mb-4 md:mb-6 text-myyellow font-bartle">
               Engineered by Professionals
             </h2>
             <p className="text-mygray leading-relaxed text-sm md:text-base">
@@ -221,8 +221,8 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="reveal opacity-0 translate-y-12 transition-all duration-700 delay-200 ease-out md:border-r border-mygray md:px-12">
-            <h2 className="text-2xl md:text-3xl mb-4 md:mb-6 text-myyellow font-bartle">
+          <div className="reveal opacity-0 translate-y-12 transition-all duration-700 delay-200 ease-out lg:border-r border-mygray lg:px-12">
+            <h2 className="text-xl mb-4 md:mb-6 text-myyellow font-bartle">
               Global Distribution
             </h2>
             <p className="text-mygray leading-relaxed text-sm md:text-base">
@@ -233,7 +233,7 @@ export default function LandingPage() {
           </div>
 
           <div className="reveal opacity-0 translate-y-12 transition-all duration-700 delay-400 ease-out md:pl-12">
-            <h2 className="text-2xl md:text-3xl mb-4 md:mb-6 text-myyellow font-bartle">
+            <h2 className="text-xl mb-4 md:mb-6 text-myyellow font-bartle">
               Over 30 Countries
             </h2>
             <p className="text-mygray leading-relaxed text-sm md:text-base">
@@ -248,7 +248,7 @@ export default function LandingPage() {
             <img src="/arcvel.svg" alt="" className="h-40 md:h-60 w-auto" />
           </div>
           <div className="flex-1">
-            <p className="text-mygray text-center lg:text-justify text-base md:text-xl leading-relaxed">
+            <p className="text-mygray text-center lg:text-justify text-base md:text-lg leading-relaxed">
               At Arcvel Arms, we are committed to delivering firearms that
               combine cutting-edge technology, superior craftsmanship, and
               unmatched reliability. Whether for defense, hunting, or
