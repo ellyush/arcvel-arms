@@ -10,7 +10,7 @@ export default function AboutUs() {
     <div>
       <Navbar />
       <div className="w-full h-full bg-mywhite py-20">
-        <h1 className="py-12 text-5xl text-myyellow">About Us</h1>
+        <h1 className="py-12 text-5xl text-myyellow text-center">About Us</h1>
         <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 h-120 mb-8">
           {/* IMAGE */}
           <motion.div
