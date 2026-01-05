@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,34 +26,34 @@ export default function Navbar() {
 
         {/* --- DESKTOP NAVIGATION (Hidden on Mobile) --- */}
         <div className="hidden lg:flex gap-8 lg:gap-12 text-lg lg:text-xl font-titillium text-myblack">
-          <a
-            href="#"
+          <Link
+            href="/landingpage"
             className="hover:text-myred-700 transition relative group"
           >
             Home
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-myred-700 transition-all group-hover:w-full"></span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="hover:text-myred-700 transition relative group"
           >
             Our Products
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-myred-700 transition-all group-hover:w-full"></span>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/aboutus"
             className="hover:text-myred-700 transition relative group"
           >
             About Us
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-myred-700 transition-all group-hover:w-full"></span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="hover:text-myred-700 transition relative group"
           >
             Contact Us
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-myred-700 transition-all group-hover:w-full"></span>
-          </a>
+          </Link>
         </div>
 
         {/* --- DESKTOP SEARCH (Hidden on Mobile) --- */}
@@ -109,27 +110,27 @@ export default function Navbar() {
           <div className="flex flex-col px-6 py-6 space-y-6 text-myblack">
             {/* Mobile Links */}
             <div className="flex flex-col space-y-4 text-xl font-titillium text-center">
-              <a
+              <Link
                 href="#"
                 className="hover:text-myred-700 py-2 border-b border-mygray/10"
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="hover:text-myred-700 py-2 border-b border-mygray/10"
               >
                 Our Products
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="hover:text-myred-700 py-2 border-b border-mygray/10"
               >
                 About Us
-              </a>
-              <a href="#" className="hover:text-myred-700 py-2">
+              </Link>
+              <Link href="#" className="hover:text-myred-700 py-2">
                 Contact Us
-              </a>
+              </Link>
             </div>
 
             {/* Mobile Search */}
