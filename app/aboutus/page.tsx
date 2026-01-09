@@ -56,10 +56,12 @@ export default function AboutUs() {
     <div>
       <Navbar />
       <div className="w-full h-full bg-mywhite py-20">
-        <h1 className="py-12 text-5xl text-myyellow text-center">About Us</h1>
-        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 h-120 mb-8">
+        <h1 className="py-12 text-3xl lg:text-5xl md:text-4xl text-myyellow text-center">
+          About Us
+        </h1>
+        <section className="w-3/4 mx-auto grid grid-cols-10 md:grid-cols-1 gap-8 mb-8">
           {/* IMAGE */}
-          <div className="slide-right opacity-0 -translate-x-50 col-span-6 h-full">
+          <div className="slide-right opacity-0 -translate-x-50 col-span-6 md:col-span-1 h-full">
             <img
               src="/industry.jpg"
               alt=""
@@ -68,7 +70,7 @@ export default function AboutUs() {
           </div>
 
           {/* TEXT */}
-          <div className="slide-left opacity-0 translate-x-50 col-span-4 bg-myyellow text-myblack py-12 px-12 flex flex-col justify-center">
+          <div className="slide-left opacity-0 translate-x-50 col-span-4 md:col-span-1 bg-myyellow text-myblack py-12 px-12 flex flex-col justify-center">
             <h2 className="text-xl mb-4">Our Foundation</h2>
             <p className="text-md">
               Arcvel Arms was established with a clear and focused objective: to
@@ -82,7 +84,7 @@ export default function AboutUs() {
             </p>
           </div>
         </section>
-        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 h-120 mb-8">
+        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 mb-8">
           {/* TEXT */}
           <div className="slide-right opacity-0 -translate-x-50 col-span-4 bg-myyellow text-myblack py-12 px-12 flex flex-col justify-center">
             <h2 className="text-xl mb-4">Advanced Manufacturing Technology</h2>
@@ -106,7 +108,7 @@ export default function AboutUs() {
             />
           </div>
         </section>
-        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 h-120 mb-8">
+        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 mb-8">
           {/* IMAGE */}
           <div className="slide-right opacity-0 -translate-x-50 col-span-6 h-full">
             <img
@@ -131,7 +133,7 @@ export default function AboutUs() {
             </p>
           </div>
         </section>
-        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 h-120 mb-8">
+        <section className="w-3/4 mx-auto grid grid-cols-10 gap-8 mb-8">
           {/* TEXT */}
           <div className="slide-right opacity-0 -translate-x-50 col-span-4 bg-myyellow text-myblack py-12 px-12 flex flex-col justify-center">
             <h2 className="text-xl mb-4">Advanced Manufacturing Technology</h2>
