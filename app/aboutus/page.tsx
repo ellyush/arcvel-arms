@@ -56,23 +56,24 @@ export default function AboutUs() {
     <div>
       <Navbar />
       <div className="w-full h-full bg-mywhite py-20">
-        <h1 className="py-12 text-3xl lg:text-5xl md:text-4xl text-myyellow text-center">
+        <h1 className="py-12 text-3xl lg:text-5xl text-myyellow text-center">
           About Us
         </h1>
-        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 md:grid-cols-10 gap-4 mb-4">
+
+        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 lg:grid-cols-10 gap-4 mb-4">
           {/* IMAGE */}
-          <div className="slide-right opacity-0 -translate-x-50 col-span-1 md:col-span-6 h-full">
+          <div className="slide-right opacity-0 -translate-x-50 col-span-1 lg:col-span-6 h-full order-1">
             <img
               src="/industry.jpg"
               alt=""
-              className="w-full h-56 md:h-96 object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
 
           {/* TEXT */}
-          <div className="slide-left opacity-0 translate-x-50 col-span-1 md:col-span-4 bg-myyellow text-myblack py-8 md:py-12 px-8 md:px-12 flex flex-col justify-center">
-            <h2 className="text-lg md:text-xl mb-4">Our Foundation</h2>
-            <p className="text-sm md:text-md leading-relaxed">
+          <div className="slide-left opacity-0 translate-x-50 col-span-1 lg:col-span-4 bg-myyellow text-myblack py-8 lg:py-12 px-8 lg:px-12 flex flex-col justify-center order-2">
+            <h2 className="text-lg lg:text-xl mb-4">Our Foundation</h2>
+            <p className="text-sm lg:text-md leading-relaxed">
               Arcvel Arms was established with a clear and focused objective: to
               manufacture reliable, precise, and consistent weapon systems
               through disciplined processes and professional expertise.
@@ -84,13 +85,14 @@ export default function AboutUs() {
             </p>
           </div>
         </section>
-        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 md:grid-cols-10 gap-4 mb-4">
+
+        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 lg:grid-cols-10 gap-4 mb-4">
           {/* TEXT */}
-          <div className="slide-right opacity-0 -translate-x-50 col-span-1 md:col-span-4 bg-myyellow text-myblack py-8 md:py-12 px-8 md:px-12 flex flex-col justify-center">
-            <h2 className="text-lg md:text-xl mb-4">
+          <div className="slide-right opacity-0 -translate-x-50 col-span-1 lg:col-span-4 bg-myyellow text-myblack py-8 lg:py-12 px-8 lg:px-12 flex flex-col justify-center lg:order-1 order-2">
+            <h2 className="text-lg lg:text-xl mb-4">
               Advanced Manufacturing Technology
             </h2>
-            <p className="text-sm md:text-md leading-relaxed">
+            <p className="text-sm lg:text-md leading-relaxed">
               To maintain high standards of quality and consistency, Arcvel Arms
               utilizes modern manufacturing technologies and
               precision-controlled assembly systems. Each component is produced
@@ -102,28 +104,29 @@ export default function AboutUs() {
           </div>
 
           {/* IMAGE */}
-          <div className="slide-left opacity-0 translate-x-50 col-span-1 md:col-span-6 h-full">
+          <div className="slide-left opacity-0 translate-x-50 col-span-1 lg:col-span-6 h-full lg:order-2 order-1">
             <img
               src="/machine.jpg"
               alt=""
-              className="w-full h-56 md:h-96 object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
         </section>
-        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 md:grid-cols-10 gap-4 mb-4">
+
+        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 lg:grid-cols-10 gap-4 mb-4">
           {/* IMAGE */}
-          <div className="slide-right opacity-0 -translate-x-50 col-span-1 md:col-span-6 h-full">
+          <div className="slide-right opacity-0 -translate-x-50 col-span-1 lg:col-span-6 h-full lg:order-1">
             <img
               src="/expert.jpg"
               alt=""
-              className="w-full h-56 md:h-96 object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
 
           {/* TEXT */}
-          <div className="slide-left opacity-0 translate-x-50 col-span-1 md:col-span-4 bg-myyellow text-myblack py-8 md:py-12 px-8 md:px-12 flex flex-col justify-center">
-            <h2 className="text-lg md:text-xl mb-4">Our Foundation</h2>
-            <p className="text-sm md:text-md leading-relaxed">
+          <div className="slide-left opacity-0 translate-x-50 col-span-1 lg:col-span-4 bg-myyellow text-myblack py-8 lg:py-12 px-8 lg:px-12 flex flex-col justify-center lg:order-2">
+            <h2 className="text-lg lg:text-xl mb-4">Our Foundation</h2>
+            <p className="text-sm lg:text-md leading-relaxed">
               Arcvel Arms was established with a clear and focused objective: to
               manufacture reliable, precise, and consistent weapon systems
               through disciplined processes and professional expertise.
@@ -135,13 +138,14 @@ export default function AboutUs() {
             </p>
           </div>
         </section>
-        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 md:grid-cols-10 gap-4 mb-4">
+
+        <section className="w-full max-w-6xl px-4 mx-auto grid grid-cols-1 lg:grid-cols-10 gap-4 mb-4">
           {/* TEXT */}
-          <div className="slide-right opacity-0 -translate-x-50 col-span-1 md:col-span-4 bg-myyellow text-myblack py-8 md:py-12 px-8 md:px-12 flex flex-col justify-center">
-            <h2 className="text-lg md:text-xl mb-4">
+          <div className="slide-right opacity-0 -translate-x-50 col-span-1 lg:col-span-4 bg-myyellow text-myblack py-8 lg:py-12 px-8 lg:px-12 flex flex-col justify-center lg:order-1 order-2">
+            <h2 className="text-lg lg:text-xl mb-4">
               Advanced Manufacturing Technology
             </h2>
-            <p className="text-sm md:text-md leading-relaxed">
+            <p className="text-sm lg:text-md leading-relaxed">
               To maintain high standards of quality and consistency, Arcvel Arms
               utilizes modern manufacturing technologies and
               precision-controlled assembly systems. Each component is produced
@@ -153,12 +157,8 @@ export default function AboutUs() {
           </div>
 
           {/* IMAGE */}
-          <div className="slide-left opacity-0 translate-x-50 col-span-1 md:col-span-6 h-full">
-            <img
-              src="/rnd.jpg"
-              alt=""
-              className="w-full h-56 md:h-96 object-cover"
-            />
+          <div className="slide-left opacity-0 translate-x-50 col-span-1 lg:col-span-6 h-full lg:order-2 order-1">
+            <img src="/rnd.jpg" alt="" className="w-full h-full object-cover" />
           </div>
         </section>
       </div>
