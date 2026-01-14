@@ -1,9 +1,7 @@
 "use client";
 import Navbar from "../component/navbar";
-import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import Footer from "../component/footer";
-import { motion } from "framer-motion";
 
 export default function AboutUs() {
   useEffect(() => {
