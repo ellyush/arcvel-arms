@@ -12,6 +12,7 @@ export default function WhyUsSection() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full gap-12 text-center lg:text-left">
         <WhyUsItem
+          hasBorder
           title="Enginered By Professional"
           description="Designed and developed by professionals with hands-on experience in
             engineering, manufacturing, and defense-related environments,
@@ -19,6 +20,7 @@ export default function WhyUsSection() {
             requirements rather than theoretical concepts."
         />
         <WhyUsItem
+          hasBorder
           title="Global Distribution"
           description="Supported by a structured global logistics and distribution system
             that enables consistent delivery, regional availability, and
