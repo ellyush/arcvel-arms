@@ -11,7 +11,7 @@ export default function WhyUsItem({
   description,
   hasBorder = false,
 }: WhyUsItemProps) {
-  RevealOnScroll;
+  RevealOnScroll();
   return (
     <div
       className={`reveal opacity-0 translate-y-12 transition-all duration-700 ease-out 

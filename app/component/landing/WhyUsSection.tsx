@@ -1,10 +1,6 @@
-"use client";
-import RevealOnScroll from "@/app/hooks/RevealOnScroll";
 import WhyUsItem from "./whyUsItem";
 
 export default function WhyUsSection() {
-  RevealOnScroll();
-
   return (
     <section
       id="whyus"
@@ -33,11 +29,6 @@ export default function WhyUsSection() {
             through authorized partners, reflecting sustained adoption across
             diverse operational, regulatory, and environmental conditions."
         />
-
-        <div className="reveal opacity-0 translate-y-12 transition-all duration-700 delay-400 ease-out md:pl-12">
-          <h2 className="text-xl mb-4 md:mb-6 text-myyellow font-bartle"></h2>
-          <p className="text-mygray leading-relaxed text-sm md:text-base"></p>
-        </div>
       </div>
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12 mt-12">
         <div className="shrink-0">
