@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* --- DESKTOP NAVIGATION (Hidden on Mobile) --- */}
         <div className="hidden lg:flex gap-8 lg:gap-12 text-lg lg:text-xl font-titillium text-myblack">
           <Link
-            href="/landingpage"
+            href="/"
             className="hover:text-myred-700 transition relative group"
           >
             Home
