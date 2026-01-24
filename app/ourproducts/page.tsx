@@ -1,21 +1,33 @@
+"use client";
 import Sidebar from "../component/sidebar";
 import Navbar from "../component/navbar";
 import Footer from "../component/footer";
+import ProductCard from "../component/ourproducts/ProductCard";
 export default function OurProducts() {
   return (
     <section className="grid">
       <Navbar />
-      <div className="flex">
+      <div className="flex pt-20">
         <Sidebar />
-        <div className="w-full py-24 bg-mywhite">
-          <div className="grid grid-cols-2 w-3/4 mx-auto gap-12">
-            <div className="bg-mywhite col-span-1 border-2 border-mygray">
-              <h2 className="text-myyellow text-xl">ARC-D7 (HB)</h2>
-            </div>
-            <div className="col-span-1 w-full">
-              <img src="/ARCD7.png" alt="" className="h-52" />
-            </div>
-          </div>
+        <div className="w-full h-full bg-mywhite py-20">
+          <ProductCard
+            categories="Assault Rifle"
+            title="ARC-D7 HB"
+            desc="Designed for operators who prioritize maximum stability and sustained accuracy, the ARC-D7 Heavy Barrel variant excels in prolonged engagements. Its reinforced barrel profile minimizes heat distortion and recoil impulse, allowing consistent shot placement during high-volume fire. Ideal for scenarios where precision under pressure and endurance matter most, without compromising the ARC-D7’s core reliability."
+            imgSrc="/ARCD7.png"
+          />
+          <ProductCard
+            categories="Assault Rifle"
+            title="ARC-D7 MB"
+            desc="The ARC-D7 Medium Barrel variant strikes the perfect balance between control and agility. Optimized for versatility, it delivers reliable accuracy with improved maneuverability, making it suitable for dynamic operations across varied environments. This variant maintains excellent heat management while keeping the carbine responsive and adaptable."
+            imgSrc="/ARCD7.png"
+          />
+          <ProductCard
+            categories="Assault Rifle"
+            title="ARC-D7 LB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCD7.png"
+          />
         </div>
       </div>
 
