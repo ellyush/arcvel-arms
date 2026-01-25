@@ -28,6 +28,42 @@ export default function OurProducts() {
             desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
             imgSrc="/ARCD7.png"
           />
+          <ProductCard
+            categories="Marksman Rifle"
+            title="ARC-M18 HB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCM18.png"
+          />
+          <ProductCard
+            categories="Marksman Rifle"
+            title="ARC-M18 MB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCM18.png"
+          />
+          <ProductCard
+            categories="Marksman Rifle"
+            title="ARC-M18 LB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCM18.png"
+          />
+          <ProductCard
+            categories="Hunting Rifle"
+            title="ARC-S600 HB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCS600.png"
+          />
+          <ProductCard
+            categories="Hunting Rifle"
+            title="ARC-S600 MB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCS600.png"
+          />
+          <ProductCard
+            categories="Hunting Rifle"
+            title="ARC-S600 LB"
+            desc="Built for speed, mobility, and rapid handling, the ARC-D7 Light Barrel variant is engineered for fast-paced operations. Its reduced barrel weight enhances maneuverability and target transitions, making it ideal for close to mid-range engagements where responsiveness is critical. Despite its lightweight profile, it retains the precision and dependability expected from the ARC-D7 platform."
+            imgSrc="/ARCS600.png"
+          />
         </div>
       </div>
 
